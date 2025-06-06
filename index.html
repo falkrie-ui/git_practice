@@ -3,27 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Indra | Web Developer</title>
+  <title>Indra Haliem | Web Developer</title>
+  <link rel="icon" href="img/indra_haliem.png" type="image/png">
   <link rel="stylesheet" href="style.css" />
   <!-- Add Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Questrial&family=Smooch+Sans:wght@100..900&family=Space+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Questrial&display=swap" rel="stylesheet">
 <script src="script.js" defer></script>
 </head>
 <body>
+    <!-- Loader -->
+    <div id="loader">
+      <img src="img/indra_haliem.png" alt="Loading..." />
+    </div>
+
     <header class="navbar">
         <nav class="nav-left nav-links" id="nav-links">
-          <a href="#home" class="active">Home</a>
-          <a href="#work">Work</a>
-          <a href="#blog">Blog</a>
+          <a href="#home" class="active">HOME</a>
+          <a href="#work">WORK</a>
+          <a href="#blog">BLOG
+          </a>
+          
         </nav>
       
         <div class="logo"><a href="#"><img src="img/indra_haliem.png" alt="Indra Halim Logo" class="logo-img"></a></div>
       
         <div class="nav-right">
-          <a href="#contact" class="contact-button">Contact</a>
+          <a href="#contact" class="contact-button">CONTACT</a>
         </div>
 
           <!-- Hamburger toggle on small screens -->
@@ -33,48 +41,45 @@
 
     <section class="hero">
         <div class="hero-text">
-          <h1>Hi, I'm Indra</h1>
-          <p>A passionate web developer crafting digital experiences.</p>
+          <h1>Growing One Line of Code at a Time</h1>
+          <p>I’m a self-taught web developer focused on building beautiful and functional websites. Every day is a step forward.</p>
         </div>
         <div class="hero-image">
-          <img src="your-image.jpg" alt="Indra's profile photo">
+          <img src="img/my_photo_simple.png" alt="Indra's profile photo">
         </div>
     </section>
 
     <section class="projects" id="work">
-        <h2>My Projects</h2>
+      <div class="projects-container">
+        <h2 class="vertical-title">My Projects</h2>
+    
         <div class="project-grid">
           <div class="project-card">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project One</h3>
-            <p>A modern responsive landing page.</p>
+            <img src="img/banaarchitect.jpg" alt="Bana Architect Website">
+            <h3>Bana Architect <span class="status in-progress">(In Development)</span></h3>
+            <p>Live company profile website for an architecture firm. Still actively improved for SEO, performance, and additional features.</p>
+            <a href="https://banaarchitect.com" target="_blank">Visit Site</a>
           </div>
+    
           <div class="project-card">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project Two</h3>
-            <p>Portfolio built with HTML, CSS, and JS.</p>
-          </div>
-          <div class="project-card">
-            <img src="project3.jpg" alt="Project 3">
-            <h3>Project Three</h3>
-            <p>E-commerce homepage clone.</p>
-          </div>
-          <div class="project-card">
-            <img src="project4.jpg" alt="Project 4">
-            <h3>Project Four</h3>
-            <p>Personal blog template with animations.</p>
+            <img src="img/badingsanak.jpg" alt="Bading Sanak Jaya Website">
+            <h3>Badingsanak Jaya <span class="status in-progress">(In Development)</span></h3>
+            <p>Professional website for a construction service company. Includes service overview, contact form, and SEO-friendly structure.</p>
+            <a href="https://badingsanakjaya.com" target="_blank">Visit Site</a>
           </div>
         </div>
+      </div>
     </section>
+    
     
     <footer class="site-footer">
         <div class="footer-left">
           &copy; 2025 Indra. All rights reserved.
         </div>
         <div class="footer-right">
-            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/falkrie-ui" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://instagram.com/ind.haliem" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>  
     </footer>
       
