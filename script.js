@@ -42,7 +42,7 @@ function typeWriter(text, element, speed = 80) {
       setTimeout(type, speed);
     }
   }
-  element.textContent = ""; // Clear current text
+  element.textContent = ""; // Clear current text before typing
   type();
 }
 
